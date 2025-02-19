@@ -1,78 +1,70 @@
-# Inventario
+## 🛠 Proyecto de Inventario y Operaciones Matemáticas  
 
-![Haskell](https://img.shields.io/badge/Language-Haskell-purple)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+Este repositorio contiene dos elementos principales:  
 
-## Descripción
+1. **`inventario.exe`** - Un ejecutable que maneja el inventario, ubicado en `C:\Users\angel\OneDrive\Escritorio\Paradigmas`.  
+2. **`Paradigmas Programacion I.ipynb`** - Un Python que realiza operaciones matemáticas utilizando sucesores y predecesores.  
 
-`Inventario` es un programa desarrollado en **Haskell** que permite gestionar un inventario de productos de manera eficiente. Utiliza estructuras de datos funcionales para optimizar el manejo de información y asegurar un código modular y mantenible.
+---
 
-
-
-## Características
-
-✅ Gestión de productos (agregar, eliminar, actualizar información).
-✅ Interfaz de línea de comandos para facilidad de uso.
-✅ Optimizado para eficiencia y rendimiento.
-✅ Implementación funcional en Haskell.
-
-## Instalación
-
-Para compilar y ejecutar el proyecto, asegúrate de tener instalado **GHC (Glasgow Haskell Compiler)**. Puedes instalarlo siguiendo las instrucciones en [Haskell.org](https://www.haskell.org/ghc/).
-
-### Clonar el repositorio
-```sh
-git clone https://github.com/tuusuario/inventario.git
-cd inventario
-```
-
-### Compilar el código
-```sh
-ghc -o inventario inventario.hs
-```
-
-### Ejecutar el programa
-```sh
-./inventario.exe  # En Windows
-./inventario      # En macOS/Linux
-```
-
-## Uso
-
-Una vez ejecutado, el programa te permitirá realizar operaciones sobre el inventario mediante una interfaz en la línea de comandos.
-
-Ejemplo de uso:
-```
-> Agregar producto: Laptop, 5 unidades
-> Mostrar inventario
-Laptop - 5 unidades
-```
-
-## Estructura del Proyecto
+### 📂 Estructura del Repositorio  
 
 ```
-📂 inventario/
-├── 📄 inventario.hs   # Código fuente principal
-├── 📄 README.md       # Documentación del proyecto
-└── 📄 inventario.exe  # Archivo ejecutable generado (Windows)
+📦 ParadigmasProgramacionI
+ ┗ 📄 README.md
+ ┗ 📄 inventario.exe
+ ┗ 📄 Paradigmas_Programacion_I.ipynb
+
 ```
 
-## Contribución
 
-¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
+### 🔧 Instalación  
 
-1. **Haz un fork** del repositorio.
-2. **Crea una rama** para tu funcionalidad (`git checkout -b feature-nueva`).
-3. **Realiza cambios y confirma los commits** (`git commit -m "Agrega nueva funcionalidad"`).
-4. **Envía un Pull Request**.
+#### Ejecutar `inventario.exe`  
+1. Asegúrate de estar en el directorio correcto donde se encuentra el archivo.  
+2. Usa PowerShell o la terminal para ejecutarlo:  
+   ```powershell
+   cd "C:\Users\angel\OneDrive\Escritorio\Paradigmas"
+   .\inventario.exe
+   ```
+   
+Si obtienes un error de "archivo no encontrado", verifica que el archivo existe con:  
+   ```powershell
+   Get-ChildItem -Path . -Filter "inventario.exe"
+   ```
 
-## Contacto
+#### Ejecutar el script en Python  
+Asegúrate de tener Python instalado   
+   ```en el bash
+   python Paradigmas_Programacion_I.ipynb
+   ```
 
-📧 Correo: tuemail@example.com  
-🐦 Twitter: [@tuusuario](https://twitter.com/tuusuario)
+---
 
-## Licencia
+### 🚀 Uso  
 
-Este proyecto está bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
+El script en Python contiene funciones para realizar operaciones matemáticas con sucesores y predecesores:  
 
+```python
+print(f"Suma: {suma(n, m)}")
+print(f"Multiplicacion: {multiplicacion(n, m)}")
+print(f"Resta: {resta(n, m)}")
+print(f"Division: {division(n, m)}")
+```
 
+Explicación de funciones clave:  
+
+- **SNo(n)** → Sucesor de un número.  
+- **ANo(n)** → Predecesor de un número.  
+- **suma(n, m)** → Realiza la suma con sucesores.  
+- **multiplicacion(n, m)** → Multiplicación con recursividad.  
+- **resta(n, m)** → Resta utilizando predecesores.  
+- **division(n, m)** → División usando sucesores y predecesores.  
+
+---
+
+### 📝 Notas  
+
+- La división devuelve `"inexacta"` si no es exacta.  
+- Manejo de errores con `raise ValueError` y `raise ZeroDivisionError`.  
+- Código pensado para entender **paradigmas de programación funcional**.  
