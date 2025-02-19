@@ -7,6 +7,8 @@
 
 `Inventario` es un programa desarrollado en **Haskell** que permite gestionar un inventario de productos de manera eficiente. Utiliza estructuras de datos funcionales para optimizar el manejo de información y asegurar un código modular y mantenible.
 
+
+
 ## Características
 
 ✅ Gestión de productos (agregar, eliminar, actualizar información).
