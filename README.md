@@ -4,7 +4,7 @@ Este repositorio contiene dos elementos principales:
 
 1. **`inventario.exe`** - Un ejecutable que maneja el inventario, ubicado en `C:\Users\angel\OneDrive\Escritorio\Paradigmas`.  
 2. **`Paradigmas Programacion I.ipynb`** - Un Python que realiza operaciones matemáticas utilizando sucesores y predecesores.  
-
+3. **`EjerciciosPropuestos`** - Ejercicios que el profesor dejo el 19/02/25
 ---
 
 ### 📂 Estructura del Repositorio  
