@@ -1,0 +1,11 @@
+import System.IO
+
+squareOfNumber :: Int -> Int
+squareOfNumber x = if x < 0 then -(x^2) else x^2 --por si se ingresa negativo
+
+main :: IO()
+main = do
+    putStrLn "Ingreselo Claro :"
+    input <- getLine
+    let number = read input :: Int
+    print (squareOfNumber number)
