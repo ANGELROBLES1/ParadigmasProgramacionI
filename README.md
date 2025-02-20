@@ -66,6 +66,5 @@ Explicación de funciones clave:
 
 ### 📝 Notas  
 
-- La división devuelve `"inexacta"` si no es exacta.  
-- Manejo de errores con `raise ValueError` y `raise ZeroDivisionError`.  
-- Código pensado para entender **paradigmas de programación funcional**.  
+- ghc XXX.hs (Para compilar de Nuevo el .hs y pasarlo a .exe)
+- ./XXX.exe (Ejecutar el .exe, verificar si se encuentra en la direccion correcta)
