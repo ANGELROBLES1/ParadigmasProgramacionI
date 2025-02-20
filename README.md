@@ -11,6 +11,7 @@ Este repositorio contiene dos elementos principales:
 
 ```
 📦 ParadigmasProgramacionI
+ ┗ 📄 EjerciciosPropuestos
  ┗ 📄 README.md
  ┗ 📄 inventario.exe
  ┗ 📄 Paradigmas_Programacion_I.ipynb
