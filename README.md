@@ -11,6 +11,7 @@ Este repositorio contiene dos elementos principales:
 
 ```
 📦 ParadigmasProgramacionI
+ ┗ 📄 CalculoLambda
  ┗ 📄 EjerciciosPropuestos
  ┗ 📄 README.md
  ┗ 📄 inventario.exe
