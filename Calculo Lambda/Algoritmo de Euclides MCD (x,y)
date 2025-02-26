@@ -1,0 +1,7 @@
+GCD=Y (λf.λx.λy.if y=0 then x else f (y,x mod y))
+
+# Y: Es el combinador de punto fijo, que permite definir funciones recursivas en el calculo lambda
+# f representa la funcion recursiva, x es el primer numero, y es el segundo numero
+# Si y=0, entonces x es el resultado (porque el MCD de x y 0 es x)
+# Si y ≠ 0, se llama recursivamente a f con los argumentos ( 𝑦,x  mod y), lo que implementa el algoritmo de Euclides.
+# El algoritmo de Euclides, dividiendo repetidamente hasta que el residuo sea 0
