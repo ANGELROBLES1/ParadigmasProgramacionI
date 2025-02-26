@@ -1,0 +1,9 @@
+FACT=Y (λf.λn.if n=0 then 1 else n×f(n−1))
+
+# *Y* = Es el Combinador
+# *λf.λn.if n=0 then 1 else n×f(n−1)* = f: Funcion recursiva que se llama a ella misma, n:  Numero a calcular
+# Si n=0, se devuelve 1
+# Si n≠0, se calcula n*f(n-1)
+
+
+	#Que es un Combinador?  Resuelve el problema de la recursion aplicando la funcion a si misma de forma infinita pero controlada
