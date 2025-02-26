@@ -1,0 +1,6 @@
+IS_PRIME=Y (λf.λn.λd.(d=n) or (nmodd  =0 and f(n,d+1)))
+
+
+# Si d = n, significa que ningun numero menor que n lo dividio, por lo que n es primo
+# Si n mod d=0, significa que n es divisible por d, por lo que no es primo
+# Si no se cumplen las condiciones anteriores, incrementamos d y seguimos buscando hasta que d=n
