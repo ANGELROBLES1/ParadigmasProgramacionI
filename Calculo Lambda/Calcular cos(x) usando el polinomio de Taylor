@@ -1,0 +1,5 @@
+COS_TAYLOR = Y (λf.λx.λk. if k=0 then 1 else ((-1)^k / (fact(2*k))) * (x^(2*k)) + f x (k-1))
+
+# λf.λx.λk: f: Funcion recursiva que calculara la serie de Taylor, x: El valor en el cual se evalua cos(x)
+# k: La cantidad de terminos a sumar en la serie
+# Si k=0, devuelve 1, que es el primer termino de la serie de Taylor
